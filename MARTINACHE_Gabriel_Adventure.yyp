@@ -33,7 +33,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"MARTINACHE_Gabriel_Adventure",
   "resources":[
@@ -42,6 +42,11 @@
     {"id":{"name":"O_spike","path":"objects/O_spike/O_spike.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sc_ReduceLife","path":"scripts/sc_ReduceLife/sc_ReduceLife.yy",},},
+    {"id":{"name":"S_CoteDosGorille","path":"sprites/S_CoteDosGorille/S_CoteDosGorille.yy",},},
+    {"id":{"name":"S_CoteFaceGorille","path":"sprites/S_CoteFaceGorille/S_CoteFaceGorille.yy",},},
+    {"id":{"name":"S_CoteGorille","path":"sprites/S_CoteGorille/S_CoteGorille.yy",},},
+    {"id":{"name":"S_DosGorille","path":"sprites/S_DosGorille/S_DosGorille.yy",},},
+    {"id":{"name":"S_FaceGorille","path":"sprites/S_FaceGorille/S_FaceGorille.yy",},},
     {"id":{"name":"S_Hero","path":"sprites/S_Hero/S_Hero.yy",},},
     {"id":{"name":"S_playerlife","path":"sprites/S_playerlife/S_playerlife.yy",},},
     {"id":{"name":"S_spike","path":"sprites/S_spike/S_spike.yy",},},
