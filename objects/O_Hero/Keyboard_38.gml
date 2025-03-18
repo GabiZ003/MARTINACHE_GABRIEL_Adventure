@@ -4,9 +4,10 @@
 /// @DnDArgument : "direction" "90"
 direction = 90;
 
-/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
-/// @DnDHash : 795009A2
-/// @DnDArgument : "value" "1"
-/// @DnDArgument : "instvar" "11"
-image_index = 1;
+/// @DnDHash : 5B103222
+/// @DnDArgument : "spriteind" "S_DosGorille"
+/// @DnDSaveInfo : "spriteind" "S_DosGorille"
+sprite_index = S_DosGorille;
+image_index = 0;

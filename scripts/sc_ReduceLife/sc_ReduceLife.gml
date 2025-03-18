@@ -11,4 +11,23 @@ function sc_ReduceLife(amount) {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "expr" "-amount"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "O_Life_Manager.playerlife"
-	O_Life_Manager.playerlife += -amount;}
+	O_Life_Manager.playerlife += -amount;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6C1467D3
+	/// @DnDParent : 547E878D
+	/// @DnDArgument : "expr" "true"
+	/// @DnDArgument : "var" "O_Life_Manager.Invicible"
+	O_Life_Manager.Invicible = true;
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 0489C726
+	/// @DnDApplyTo : {O_Life_Manager}
+	/// @DnDParent : 547E878D
+	/// @DnDArgument : "steps" "90"
+	with(O_Life_Manager) {
+	alarm_set(0, 90);
+	
+	}}
