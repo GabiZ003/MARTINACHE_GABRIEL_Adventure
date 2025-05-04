@@ -1,17 +1,22 @@
-/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1
-/// @DnDHash : 093AB4ED
-/// @DnDArgument : "x" "20"
-/// @DnDArgument : "y" "100"
+/// @DnDHash : 3733B441
+/// @DnDArgument : "x" "40"
+/// @DnDArgument : "y" "120"
+/// @DnDArgument : "xscale" "3"
+/// @DnDArgument : "yscale" "3"
 /// @DnDArgument : "sprite" "S_Fruits"
+/// @DnDArgument : "frame" "3"
 /// @DnDSaveInfo : "sprite" "S_Fruits"
-draw_sprite(S_Fruits, 0, 20, 100);
+draw_sprite_ext(S_Fruits, 3, 40, 120, 3, 3, 0, $FFFFFF & $ffffff, 1);
 
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
-/// @DnDHash : 072BBCF3
-/// @DnDArgument : "x" "30"
+/// @DnDHash : 7CE6A050
+/// @DnDArgument : "x" "80"
 /// @DnDArgument : "y" "90"
+/// @DnDArgument : "xscale" "3"
+/// @DnDArgument : "yscale" "3"
 /// @DnDArgument : "caption" """"
-/// @DnDArgument : "var" "Player_Fruits"
-draw_text(30, 90, string("") + string(Player_Fruits));
+/// @DnDArgument : "text" "Player_Fruits"
+draw_text_transformed(80, 90, string("") + string(Player_Fruits), 3, 3, 0);

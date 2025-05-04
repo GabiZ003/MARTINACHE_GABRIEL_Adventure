@@ -1,5 +1,6 @@
-/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
-/// @DnDHash : 4FE17797
-/// @DnDArgument : "speed" "0"
-image_speed = 0;
+/// @DnDHash : 2541A22E
+/// @DnDArgument : "steps" "10"
+/// @DnDArgument : "alarm" "5"
+alarm_set(5, 10);

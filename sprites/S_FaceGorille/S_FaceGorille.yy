@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites_Gorille",
-    "path":"folders/Sprites/Sprites_Gorille.yy",
+    "name":"animation",
+    "path":"folders/Sprites/Sprites_Gorille/animation.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
